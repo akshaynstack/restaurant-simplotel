@@ -247,13 +247,14 @@ background: linear-gradient(90deg, rgba(184,0,207,1) 0%, rgba(208,88,173,1) 25%,
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 42px;
 }
 
 .product-card{
   background: #fff;
   position: relative;
   flex: 1;
-  max-width: 400px;
+  max-width: 360px;
   height: max-content;
   margin: 40px;
   padding: 26px;
@@ -265,6 +266,9 @@ background: linear-gradient(90deg, rgba(184,0,207,1) 0%, rgba(208,88,173,1) 25%,
   .product-card{
     flex: 100%;
     max-width: 90%;
+  }
+  .product-row {
+    gap: 0;
   }
 }
 
