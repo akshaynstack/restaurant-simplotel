@@ -329,3 +329,30 @@ background: linear-gradient(90deg, rgba(184,0,207,1) 0%, rgba(208,88,173,1) 25%,
     font-size: 16px;
   }
 }
+
+/* BUTTON */
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass-button {
+  padding: 15px 62px;
+  font-family: 'Montserrat';
+  border: none;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.2); /* Transparent white background for glass effect */
+  backdrop-filter: blur(10px); /* Apply a blur to the background */
+  color: #000; /* Text color for the button */
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  margin: 0px 0px 40px 0px;
+  font-weight: 600;
+}
+
+.glass-button:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Lighten the background on hover */
+}
