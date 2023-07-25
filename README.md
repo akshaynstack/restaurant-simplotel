@@ -1,3 +1,3 @@
 # restaurant-simplotel
 
-![Restaurant]([restaurant-simplotel.png])
+![Restaurant](https://raw.githubusercontent.com/akshaynstack/restaurant-simplotel/main/restaurant-simplotel.png)
